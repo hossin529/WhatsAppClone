@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp/ChatScreen.dart';
+import 'package:whatsapp/ChatTabScreen.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -46,7 +46,7 @@ class _HomeState extends State<Home> {
         body: TabBarView(
           children: [
             Icon(Icons.directions_car),
-            ChatScreen(),
+            ChatTabScreen(),
             Icon(Icons.directions_bike),
             Icon(Icons.directions_bike),
           ],
